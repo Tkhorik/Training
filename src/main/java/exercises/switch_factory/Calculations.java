@@ -1,24 +1,11 @@
 package exercises.switch_factory;
-//class not working !!!!!!! todo: доделать клас который использует данную абстрактную фабрику
+
+import exercises.string_advanced.Bucky;
+
+
 public class Calculations {
     public static void main(String[] args) {
-        Employee employee = new Employee() {
-            @Override
-            public boolean isPayday() {
-                return false;
-            }
+        System.out.println(Bucky.storage("eee"));
 
-            @Override
-            public Money calculatePay() {
-                return null;
-            }
-
-            @Override
-            public void deliveryPay(Money pay) {
-
-            }
-        }
-        EmployeeFactoryImpl employeeFactory = new EmployeeFactoryImpl();
-        employeeFactory.makeEmployee().isPayday();
     }
 }
