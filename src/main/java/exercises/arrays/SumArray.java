@@ -1,4 +1,4 @@
-package exercises.array;
+package exercises.arrays;
 
 
 public class SumArray {

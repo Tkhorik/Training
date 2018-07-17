@@ -1,10 +1,8 @@
-package exercises.array;
+package exercises.arrays;
 
-
-import java.io.IOException;
 
 /**
- * Min Max exercises.array and
+ * Min Max exercises.arrays and
  */
 public class MinArray {
     public static void main(String[] args) {
@@ -26,14 +24,14 @@ public class MinArray {
 //        Arrays.display(strArray);
         System.out.println("+++++++++++");
 
-        System.out.println("show min exercises.array " + min);
+        System.out.println("show min exercises.arrays " + min);
         int max = mas[0];
         for (int i : mas) {
             if (i > max) {
                 max = i;
             }
         }
-        System.out.println("show exercises.array max " + max);
+        System.out.println("show exercises.arrays max " + max);
 
         int a, b;
 
